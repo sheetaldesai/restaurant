@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13AA09D41FBE345600A810CE /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13AA09D31FBE345500A810CE /* pop.mp3 */; };
 		13BE0D201FBD2D9000A5D8F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE0D1F1FBD2D9000A5D8F3 /* AppDelegate.swift */; };
 		13BE0D221FBD2D9000A5D8F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE0D211FBD2D9000A5D8F3 /* ViewController.swift */; };
 		13BE0D251FBD2D9000A5D8F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BE0D231FBD2D9000A5D8F3 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		13BE0D2D1FBD2D9000A5D8F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BE0D2B1FBD2D9000A5D8F3 /* LaunchScreen.storyboard */; };
 		13BE0D381FBD2D9000A5D8F3 /* rest_googleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE0D371FBD2D9000A5D8F3 /* rest_googleTests.swift */; };
 		13BE0D431FBD2D9000A5D8F3 /* rest_googleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE0D421FBD2D9000A5D8F3 /* rest_googleUITests.swift */; };
+		13BE0D511FBD2DF000A5D8F3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 13BE0D501FBD2DF000A5D8F3 /* Podfile */; };
+		13BE0D531FBD745C00A5D8F3 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE0D521FBD745C00A5D8F3 /* RestaurantDetailViewController.swift */; };
+		5DB982A90233CAE326814D4B /* libPods-rest-google.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA63648B717AE18E4DCFD14 /* libPods-rest-google.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13AA09D31FBE345500A810CE /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
 		13BE0D1C1FBD2D9000A5D8F3 /* rest-google.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rest-google.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13BE0D1F1FBD2D9000A5D8F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13BE0D211FBD2D9000A5D8F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		13BE0D3E1FBD2D9000A5D8F3 /* rest-googleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rest-googleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13BE0D421FBD2D9000A5D8F3 /* rest_googleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rest_googleUITests.swift; sourceTree = "<group>"; };
 		13BE0D441FBD2D9000A5D8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13BE0D501FBD2DF000A5D8F3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		13BE0D521FBD745C00A5D8F3 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		8FA63648B717AE18E4DCFD14 /* libPods-rest-google.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rest-google.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4602D8EBF1BBF85E4B55B0 /* Pods-rest-google.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-google.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rest-google/Pods-rest-google.debug.xcconfig"; sourceTree = "<group>"; };
+		E706456FF5F43019A775F09F /* Pods-rest-google.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-google.release.xcconfig"; path = "Pods/Target Support Files/Pods-rest-google/Pods-rest-google.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DB982A90233CAE326814D4B /* libPods-rest-google.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +90,13 @@
 		13BE0D131FBD2D9000A5D8F3 = {
 			isa = PBXGroup;
 			children = (
+				13BE0D501FBD2DF000A5D8F3 /* Podfile */,
 				13BE0D1E1FBD2D9000A5D8F3 /* rest-google */,
 				13BE0D361FBD2D9000A5D8F3 /* rest-googleTests */,
 				13BE0D411FBD2D9000A5D8F3 /* rest-googleUITests */,
 				13BE0D1D1FBD2D9000A5D8F3 /* Products */,
+				B0837D4550825F4E621ED44C /* Pods */,
+				4DC33BCFF6CDB809AB38D87A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +113,11 @@
 		13BE0D1E1FBD2D9000A5D8F3 /* rest-google */ = {
 			isa = PBXGroup;
 			children = (
+				13AA09D31FBE345500A810CE /* pop.mp3 */,
 				13BE0D1F1FBD2D9000A5D8F3 /* AppDelegate.swift */,
 				13BE0D211FBD2D9000A5D8F3 /* ViewController.swift */,
 				13BE0D231FBD2D9000A5D8F3 /* Main.storyboard */,
+				13BE0D521FBD745C00A5D8F3 /* RestaurantDetailViewController.swift */,
 				13BE0D291FBD2D9000A5D8F3 /* Assets.xcassets */,
 				13BE0D2B1FBD2D9000A5D8F3 /* LaunchScreen.storyboard */,
 				13BE0D2E1FBD2D9000A5D8F3 /* Info.plist */,
@@ -128,6 +144,23 @@
 			path = "rest-googleUITests";
 			sourceTree = "<group>";
 		};
+		4DC33BCFF6CDB809AB38D87A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA63648B717AE18E4DCFD14 /* libPods-rest-google.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0837D4550825F4E621ED44C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF4602D8EBF1BBF85E4B55B0 /* Pods-rest-google.debug.xcconfig */,
+				E706456FF5F43019A775F09F /* Pods-rest-google.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13BE0D471FBD2D9000A5D8F3 /* Build configuration list for PBXNativeTarget "rest-google" */;
 			buildPhases = (
+				035E0433FAA2786A74B339EE /* [CP] Check Pods Manifest.lock */,
 				13BE0D181FBD2D9000A5D8F3 /* Sources */,
 				13BE0D191FBD2D9000A5D8F3 /* Frameworks */,
 				13BE0D1A1FBD2D9000A5D8F3 /* Resources */,
+				F430346B480A3F5D3A349BDA /* [CP] Embed Pods Frameworks */,
+				E7F31E0086A852FD3753DFF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +273,9 @@
 			files = (
 				13BE0D2D1FBD2D9000A5D8F3 /* LaunchScreen.storyboard in Resources */,
 				13BE0D2A1FBD2D9000A5D8F3 /* Assets.xcassets in Resources */,
+				13BE0D511FBD2DF000A5D8F3 /* Podfile in Resources */,
 				13BE0D251FBD2D9000A5D8F3 /* Main.storyboard in Resources */,
+				13AA09D41FBE345600A810CE /* pop.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +295,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		035E0433FAA2786A74B339EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rest-google-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F31E0086A852FD3753DFF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-rest-google/Pods-rest-google-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rest-google/Pods-rest-google-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F430346B480A3F5D3A349BDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rest-google/Pods-rest-google-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		13BE0D181FBD2D9000A5D8F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +358,7 @@
 			files = (
 				13BE0D281FBD2D9000A5D8F3 /* rest_google.xcdatamodeld in Sources */,
 				13BE0D221FBD2D9000A5D8F3 /* ViewController.swift in Sources */,
+				13BE0D531FBD745C00A5D8F3 /* RestaurantDetailViewController.swift in Sources */,
 				13BE0D201FBD2D9000A5D8F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +523,7 @@
 		};
 		13BE0D481FBD2D9000A5D8F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4602D8EBF1BBF85E4B55B0 /* Pods-rest-google.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +539,7 @@
 		};
 		13BE0D491FBD2D9000A5D8F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E706456FF5F43019A775F09F /* Pods-rest-google.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
